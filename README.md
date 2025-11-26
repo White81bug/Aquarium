@@ -92,14 +92,19 @@ Menu options:
 
 ## 📁 Project Structure
 
-src/
+## Project Structure
+
+The project follows a basic MVC separation:
+
+```text
+Aquarium/
+  src/
     Controller/
       AquaFrame.java
-    View/
-      AquaPanel.java
-      AddAnimalDialog.java
     Model/
       Swimmable.java
       Fish.java
       Jellyfish.java
-
+    View/
+      AquaPanel.java
+      AddAnimalDialog.java
